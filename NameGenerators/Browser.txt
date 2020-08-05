@@ -1,0 +1,64 @@
+[REPLACE]
+-start(base)
+-base(base2,base2,ext)
+Line
+Viola
+Erwise
+Netscape
+MacWeb
+Web
+Browse
+Agora
+Internet
+Omni
+Udi
+Minuet
+Grail
+Archane
+Opera
+Power
+Cyber
+AWeb
+Voyager
+Amaya
+iCAB
+Mozilla
+Konqueror
+K-Meleon
+K
+Safari
+OmniWeb
+Apple
+Panda
+SeaMonkey
+Galeon
+AOL
+Maxthon
+Shiira
+Camino
+Avant
+Flock
+Conkeror
+Moon
+Vivaldi
+Avast
+AVG
+Basilisk
+Minotour
+Gecko
+Goanna
+Presto
+Tasman
+Trident
+Blink
+-base2(stop,stop,ext)
+ Browser
+ Explorer
+ Edge
+ Navigator
+ WebExplorer
+ Communicator
+-ext(stop)
+ Pro
+ Suite
+ Premium

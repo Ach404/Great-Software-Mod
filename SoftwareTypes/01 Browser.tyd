@@ -1,0 +1,441 @@
+SoftwareType
+	{
+	Name			"Browser"
+	Category		Browser
+	Description		"Software application which is designed to access the information from the websites or World Wide Web"
+	Random			0.2
+	OptimalDevTime	24
+	SubmarketNames	[ "Security"; "Stability"; "Usability" ]
+	OSSupport		[ Computer; Phone ]
+	NameGenerator	Browser
+	InHouse			False
+	Categories
+		[
+			{
+			Name		Computer
+			Description	"For the table"
+			Popularity	0.8
+			Retention	16
+			Iterative	0.9
+			TimeScale	1
+			IdealPrice	30
+			Unlock		1993
+			Submarkets	[ 2; 2; 4]
+			}
+			{
+			Name		Phone
+			Description	"For the pocket"
+			Popularity	0.6
+			Retention	18
+			Iterative	0.8
+			TimeScale	1
+			IdealPrice	25
+			Unlock		1995
+			Submarkets	[ 2; 1; 2]
+			}
+		]
+	Features
+		[
+			{
+			Name		System Browser
+			Spec		System
+			Description "Browser features"
+			DevTime		2
+			CodeArt		1
+			Submarkets	[ 1; 1; 2 ]
+			Features
+				[
+					# Feature Text Document Index
+					{
+					Name		"Text Document Index"
+					Description "Open a text file"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 0; 0 ]
+					}
+					
+					# Feature File Scanner
+					{
+					Name		"File Scanner"
+					Description "Look for files in the directory using FTP"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+					
+					# Feature Graphic User Interface
+					{
+					Name		"Graphic User Interface"
+					Description "Displays graphics as a user interface"
+					DevTime		1
+					Level		1
+					CodeArt		1
+					Unlock		1993
+					Submarkets	[ 1; 0; 1 ]
+					}
+					
+					# Supersede Feature HTML Support
+					{
+					Name		"↪ HTML Support ↑"
+					Description "Browser can support HTML"
+					DevTime		1.01
+					Level		1
+					CodeArt		1
+					Unlock		1993
+					Submarkets	[ 1; 0; 1 ]
+					}
+					
+					# Supersede Feature XML Support
+					{
+					Name		"↪ XML Support ↑"
+					Description "Browser can support XML"
+					DevTime		1.02
+					Level		1
+					CodeArt		1
+					Unlock		1996
+					Submarkets	[ 1; 0; 1 ]
+					}
+					
+					# Feature Browsing Data
+					{
+					Name		"Browsing Data"
+					Description "Display data used by the user"
+					DevTime		1.5
+					Level		2
+					CodeArt		1
+					Unlock		1995
+					Submarkets	[ 1; 0; 1 ]
+					}
+					
+					# Supersede Feature Web History
+					{
+					Name		"↪ Web History ↑"
+					Description "Display browser history"
+					DevTime		1.7
+					Level		2
+					CodeArt		1
+					Unlock		1998
+					Submarkets	[ 1; 0; 1 ]
+					}
+					
+					# Supersede Feature Web Cache
+					{
+					Name		"↪ Web Cache ↑"
+					Description "Management website cache"
+					DevTime		1.8
+					Level		2
+					CodeArt		1
+					Unlock		2000
+					Submarkets	[ 1; 0; 1 ]
+					}
+					
+					# Supersede Feature Web Cookies
+					{
+					Name		"↪ Web Cookies ↑"
+					Description "Management website cache"
+					DevTime		1.9
+					Level		2
+					CodeArt		1
+					Unlock		2002
+					Submarkets	[ 1; 0; 1 ]
+					}
+					
+					# Feature Security Browsing
+					{
+					Name		"Security Browsing"
+					Description "Protection against websites"
+					DevTime		2.05
+					Level		2
+					CodeArt		1
+					Unlock		1993
+					Submarkets	[ 2; 1; 1 ]
+					}
+					
+					# Supersede Feature Standart Protection
+					{
+					Name		"↪ Standart Protection ↑"
+					Description "Protection against websites and downloaded files"
+					DevTime		2.07
+					Level		2
+					CodeArt		1
+					Unlock		1998
+					Submarkets	[ 2; 1; 1 ]
+					}
+					
+					# Supersede Feature Enhanced Protection
+					{
+					Name		"↪ Enhanced Protection ↑"
+					Description "Proactive protection against dangerous website, download"
+					DevTime		2.09
+					Level		2
+					CodeArt		1
+					Unlock		2005
+					Submarkets	[ 2; 1; 1 ]
+					}
+					
+					# Supersede Feature Download Management
+					{
+					Name		"Download Management"
+					Description "Browser can download files"
+					DevTime		3.20
+					Level		2
+					CodeArt		1
+					Unlock		1999
+					Submarkets	[ 1; 1; 0 ]
+					}
+					
+					# Supersede Feature Listing File Download
+					{
+					Name		"↪ Listing File Download ↑"
+					Description "User can view and manage downloaded file on browser"
+					DevTime		3.22
+					Level		2
+					CodeArt		1
+					Unlock		2000
+					Submarkets	[ 1; 1; 0 ]
+					}
+					
+					# Supersede Feature Multiple Download File
+					{
+					Name		"↪ Multiple Download File ↑"
+					Description "Browser can support multiple download on one time"
+					DevTime		3.25
+					Level		2
+					CodeArt		1
+					Unlock		2004
+					Submarkets	[ 1; 1; 0 ]
+					}
+					
+					# Supersede Feature Enhanced Speed Download
+					{
+					Name		"↪ Enhanced Speed Download ↑"
+					Description "Browser can enhanced your speed download"
+					DevTime		3.29
+					Level		2
+					CodeArt		1
+					Unlock		2009
+					Submarkets	[ 1; 1; 0 ]
+					}
+					
+					# Feature User Management
+					{
+					Name		"User Management"
+					Description "Display data used by the user"
+					DevTime		3.12
+					Level		2
+					CodeArt		1
+					Unlock		2000
+					Submarkets	[ 0; 1; 1 ]
+					}
+					
+					# Supersede Feature Login User
+					{
+					Name		"↪ Login User ↑"
+					Description "Browser can manage user data"
+					DevTime		3.15
+					Level		2
+					CodeArt		1
+					Unlock		2002
+					Submarkets	[ 0; 1; 1 ]
+					}
+					
+					# Supersede Feature Multiple User
+					{
+					Name		"↪ Multiple User ↑"
+					Description "User can manage multiple user for using browser"
+					DevTime		3.17
+					Level		2
+					CodeArt		1
+					Unlock		2006
+					Submarkets	[ 0; 1; 1 ]
+					}
+					
+					# Supersede Feature Password Management
+					{
+					Name		"↪ Password Management ↑"
+					Description "User can management password for specific website"
+					DevTime		3.19
+					Level		2
+					CodeArt		1
+					Unlock		2011
+					Submarkets	[ 0; 1; 1 ]
+					}
+					
+					# Feature
+					{
+					Name		"Sync Cross Browser"
+					Description "Data synchronization between browsers"
+					DevTime		3
+					Level		3
+					CodeArt		1
+					Unlock		2010
+					Submarkets	[ 0; 1; 1 ]
+					}
+					
+					# Feature
+					{
+					Name		"Extention Support"
+					Description "User can make extension for browser"
+					DevTime		4
+					Level		3
+					CodeArt		1
+					Unlock		2015
+					Submarkets	[ 1; 1; 2 ]
+					}			
+				]
+			}
+			{
+			Name			Interface
+			Spec			2D
+			Optional		True
+			Description 	"Your browser interface"
+			DevTime			3
+			CodeArt			0.5
+			Dependencies	"2D Editor"
+			Submarkets		[ 0; 1; 1 ]
+			Features
+				[
+					{
+					Name		"Navigation Address"
+					DevTime		1
+					Level		1
+					CodeArt		0.5
+					Submarkets	[ 0; 1; 2 ]
+					}
+					{
+					Name		"Bookmark Bar"
+					DevTime		2
+					Level		1
+					CodeArt		0.5
+					Submarkets	[ 0; 1; 2 ]
+					}
+					{
+					Name		"Management Menu"
+					DevTime		1
+					Level		1
+					CodeArt		0.5
+					Submarkets	[ 1; 0; 2 ]
+					}
+					{
+					Name		"Themes"
+					DevTime		1
+					Level		1
+					CodeArt		0.5
+					Unlock		1998
+					Submarkets	[ 0; 1; 2 ]
+					}
+					{
+					Name		"↪ Clean Themes ↑"
+					Description "GUI Using clean themes"
+					DevTime		1
+					Level		1
+					CodeArt		0.5
+					Unlock		2000
+					Submarkets	[ 0; 1; 2 ]
+					}
+					{
+					Name		"↪ Customizable Themes ↑"
+					Description "User can be create a themes"
+					DevTime		1
+					Level		1
+					CodeArt		0.5
+					Unlock		2010
+					Submarkets	[ 0; 1; 2 ]
+					}
+					{
+					Name		"Web Notification"
+					DevTime		1
+					Level		1
+					CodeArt		0.5
+					Unlock		2011
+					Submarkets	[ 1; 0; 2 ]
+					}
+					{
+					Name		"Extension Bar"
+					DevTime		1
+					Level		1
+					CodeArt		0.5
+					Unlock		2015
+					Submarkets	[ 0; 1; 2 ]
+					}
+				]
+			}
+			{
+			Name		Networking
+			Spec		Network
+			Optional	True
+			Description "Browser network setting"
+			DevTime		1
+			CodeArt		1
+			Submarkets	[ 2; 1; 1 ]
+			Features
+				[
+					{
+					Name		"Proxy Setting"
+					Description "User can be setting proxy"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Unlock		2000
+					Submarkets	[ 1; 0; 1 ]
+					}
+					{
+					Name		"DNS Setting"
+					Description "User can be setting DNS"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Unlock		2002
+					Submarkets	[ 1; 0; 1 ]
+					}
+					{
+					Name		"VPN Support"
+					Description "Browser was included VPN"
+					DevTime		2
+					Level		2
+					CodeArt		1
+					Unlock		2008
+					Submarkets	[ 1; 0; 1 ]
+					Server		0.0002
+					Random		0.2
+					}
+					{
+					Name		"Ad blocker"
+					Description "Remove those things that make news sites unreadable"
+					DevTime		2
+					Level		2
+					CodeArt		1
+					Unlock		2010
+					Submarkets	[ 2; 1; 1 ]
+					}
+					{
+					Name		"Datamining"
+					Description	"Sell your users' data to make an extra {Currency:0.25} per active user, at the risk of getting caught"
+					Server		0.0005
+					DevTime		4
+					Level		3
+					CodeArt		1
+					Unlock		2012
+					Submarkets	0
+					Script_EndOfDay
+"if (Product.GetVar(\"Datamining\", true))//Check if player has been caught
+	{
+	var extra = Product.Userbase * 0.25;//Calculate extra income
+	Product.DevCompany.MakeTransaction(extra, Sales, \"Datamining\");//Add money
+	Product.AddToCashflow(0, 0, 0, extra, 0, Time);//Add to product income chart
+	if (Random() * Product.Userbase > 250000)//Random chance of getting caught
+		{
+		LaunchLawsuit(\"SpyingOnUsers\", Product.Sum, 1);//Create anonymous lawsuit
+		Product.DevCompany.AddFans(-Product.Userbase, Product.Category);//Remove fans and market recognition from player in category
+		Product.Userbase = Product.Userbase * 0.05;//Remove 95% of active users
+		Product.KillAwareness();//Remove all marketing
+		Product.PutVar(\"Datamining\", false);//Mark player as caught for this product
+		}
+	}"
+					}
+				]
+			}
+		]
+	}

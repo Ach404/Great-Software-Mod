@@ -1,0 +1,15 @@
+CompanyType
+	{
+	Specialization		Browser
+	PerYear				0.2
+	Min					2
+	Max					3
+	Types
+		[
+			{
+			Software	Browser
+			Chance		1
+			Force		True
+			}
+		]
+	}
