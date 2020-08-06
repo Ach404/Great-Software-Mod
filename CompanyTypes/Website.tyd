@@ -1,0 +1,31 @@
+CompanyType
+	{
+	Specialization		Website
+	PerYear				0.2
+	Min					4
+    Max					6
+    Framework           True
+	Types
+		[
+			{
+				Software	Website
+				Category	Social Media	
+				Chance		1
+				Force		True
+			}
+
+			{
+				Software	Website
+				Category	Dating Apps	
+				Chance		1
+				Force		True
+			}
+
+			{
+				Software	Website
+				Category	Video Platform	
+				Chance		1
+				Force		True
+			}
+		]
+	}

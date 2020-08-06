@@ -1,0 +1,320 @@
+SoftwareType
+	{
+	Name			"Website"
+	Category		Website
+	Description		"Software application which is designed to access the information from the websites or World Wide Web"
+	Random			0.25
+	OptimalDevTime	24
+	SubmarketNames	[ "Addictive"; "Dark"; "Usability" ]
+	NameGenerator	Website
+	InHouse			False
+	Categories
+		[
+			{
+			    Name		Social Media
+			    Description	"Platform Social Media"
+			    Popularity	0.8
+			    Retention	250
+			    Iterative	0.75
+			    TimeScale	1
+			    IdealPrice	10
+			    Unlock		2004
+			    Submarkets	[ 4; 1; 2 ]
+			}
+			{
+			    Name		Dating Apps
+			    Description	"Say no to Single!"
+			    Popularity	0.6
+			    Retention	250
+			    Iterative	0.9
+			    TimeScale	1
+			    IdealPrice	12
+			    Unlock		2005
+			    Submarkets	[ 2; 1; 2 ]
+            }
+            {
+                Name		Video Platform
+                Description	"Platform Social Video like a Youtube"
+                Popularity	1
+                Retention	250
+                Iterative	0.6
+                TimeScale	1
+                IdealPrice	8
+                Unlock		2006
+                Submarkets	[ 4; 2; 1 ]
+            }
+		]
+	Features
+		[
+            {
+				Name		    Website System
+				Spec			System
+				Description 	"Your Website System"
+				Dependencies	Programming Language
+				DevTime			2
+				CodeArt			1
+				Submarkets		[ 1; 1; 1 ]
+				Features
+				[
+                    # Feature Web Server
+					{
+						Name		"Web Server"
+						Description "Base your websites"
+						DevTime		1
+						Level		1
+                        CodeArt		1
+                        Server      0.0002
+						Submarkets	[ 0; 0; 1 ]
+                    }
+                    
+                    # Feature Database
+                    {
+                        Name        "Database Management System"
+                        DevTime     1
+                        Level       1
+                        CodeArt     0.5
+                        Server      0.0001
+                        Submarkets  [ 0; 0; 1 ]
+                    }
+
+                    # Feature Cache
+                    {
+                        Name        "Cache Management"
+                        DevTime     1.01
+                        Level       1
+                        CodeArt     0.5
+                        Submarkets  [ 0; 0; 1 ]
+                    }
+
+                    # Sub-Feature Cache
+                    {
+                        Name        "↪ Smart Cache Management ↑"
+                        DevTime     1.3
+                        Level       1
+                        CodeArt     0.5
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+
+                    # Feature Cookies
+                    {
+                        Name        "Cookies Management"
+                        DevTime     1
+                        Level       1
+                        CodeArt     0.5
+                        Submarkets  [ 0; 0; 1 ]
+                    }
+
+                    # Feature Notification System
+                    {
+                        Name        "Notification System"
+                        DevTime     1.1
+                        Level       1
+                        CodeArt     0.5
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+
+                    # Sub-Feature Notification System
+                    {
+                        Name        "↪ E-Mail Notification ↑"
+                        DevTime     1.2
+                        Level       1
+                        CodeArt     0.5
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+
+                    # Sub-Feature Notification System
+                    {
+                        Name        "↪ Profile Notification ↑"
+                        DevTime     1.3
+                        Level       1
+                        CodeArt     0.5
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+
+                    # Sub-Feature Notification System
+                    {
+                        Name        "↪ Browser Notification ↑"
+                        DevTime     1.4
+                        Level       1
+                        CodeArt     0.5
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+
+                    # Sub-Feature Notification System
+                    {
+                        Name        "↪ OS Notification ↑"
+                        DevTime     1.5
+                        Level       1
+                        CodeArt     0.5
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+
+                    # Feature Account Management
+                    {
+                        Name        "Account Management"
+                        DevTime     2.01
+                        Level       2
+                        CodeArt     1
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+
+                    # Sub Feature Account Management
+                    {
+                        Name        "↪ Create/Delete User ↑"
+                        Description "User can register or delete/close there account"
+                        DevTime     2.02
+                        Level       2
+                        CodeArt     1
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+
+                    # Sub Feature Account Management
+                    {
+                        Name        "↪ Username System ↑"
+                        Description "Create your unique username!"
+                        DevTime     2.03
+                        Level       2
+                        CodeArt     1
+                        Submarkets  [ 2; 2; 1 ]
+                    }
+                    
+                    # Sub Feature Account Management
+                    {
+                        Name        "↪ Profile Pages System ↑"
+                        Description "Create unique url to access user profile!"
+                        DevTime     2.04
+                        Level       2
+                        CodeArt     1
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+
+                    # Sub Feature Account Management
+                    {
+                        Name        "↪ Notification Setting ↑"
+                        Description "User can register or delete/close there account"
+                        DevTime     2.05
+                        Level       2
+                        CodeArt     1
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+
+                    # Sub Feature Account Management
+                    {
+                        Name        "↪ Profile Management ↑"
+                        Description "User can manage there profile"
+                        DevTime     2.06
+                        Level       2
+                        CodeArt     1
+                        Submarkets  [ 2; 2; 1 ]
+                    }
+
+                    # Sub Feature Account Management
+                    {
+                        Name        "↪ Friends/Follow/Subscribe ↑"
+                        Description "Lets make a friends"
+                        DevTime     2.07
+                        Level       2
+                        CodeArt     1
+                        Submarkets  [ 2; 2; 1 ]
+                    }
+
+                    # Sub Feature Account Management
+                    {
+                        Name        "↪ Block/Unblock/Hide Profile ↑"
+                        Description "Your friend annoying? lets block them!"
+                        DevTime     2.08
+                        Level       2
+                        CodeArt     1
+                        Submarkets  [ -1; 2; 1 ]
+                    }
+
+                    # Feature Content Management
+                    {
+                        Name        "Content Management"
+                        DevTime     2.10
+                        Level       2
+                        CodeArt     1
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+
+                    # Sub Feature Content Management
+                    {
+                        Name        "↪ Create/Delete Post ↑"
+                        Description "Create what are you feeling!"
+                        DevTime     2.11
+                        Level       2
+                        CodeArt     1
+                        Submarkets  [ 2; 2; 1 ]
+                    }
+
+                    # Sub Feature Content Management
+                    {
+                        Name        "↪ Reply Post ↑"
+                        Description "Lets discuss on a post"
+                        DevTime     2.12
+                        Level       2
+                        CodeArt     1
+                        Submarkets  [ 2; 2; 1 ]
+                    }
+
+                    # Sub Feature Content Management
+                    {
+                        Name        "↪ Favorite Post ↑"
+                        Description "Like your friend post? Lets click favorite button!"
+                        DevTime     2.13
+                        Level       2
+                        CodeArt     1
+                        Submarkets  [ 2; 2; 1 ]
+                    }
+
+                    # Feature Direct Messages System
+                    {
+                        Name        "Direct Messages System"
+                        DevTime     2
+                        Level       2
+                        CodeArt     1
+                        Submarkets  [ 2; 1; 1 ]
+                    }
+                    
+                    # Feature Security Questions
+                    {
+                        Name        "Security Questions"
+                        DevTime     2
+                        Level       2
+                        CodeArt     1
+                        Submarkets  [ 0; 0; 1 ]
+                    }
+                    
+                    # Feature Web Accelerator
+                    {
+                        Name        "Web Accelerator"
+                        DevTime     2
+                        Level       3
+                        CodeArt     1
+                        Unlock      2006
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+                    
+                    # Feature Two-Factor Authentication
+                    {
+                        Name        "Two-Factor Authentication"
+                        DevTime     2
+                        Level       3
+                        CodeArt     1
+                        Unlock      2010
+                        Submarkets  [ 0; 0; 1 ]
+                    }
+
+                    # Feature Integrated Security & Performance
+                    {
+                        Name        "Integrated Security & Performance"
+                        Description "integrated security services to defend against DDoS attacks, customer data breaches, and abusive bots, while preventing performance"
+                        DevTime     4
+                        Level       3
+                        CodeArt     1
+                        Submarkets  [ 2; 0; 3 ]
+                    }
+            }
+        ]
+    }    
+
