@@ -307,13 +307,383 @@ SoftwareType
 
                     # Feature Integrated Security & Performance
                     {
+                        Name        "Anti SQL Injection"
+                        Description "Security services to defend against SQL Injection"
+                        DevTime     4
+                        Level       3
+                        CodeArt     1
+                        Unlock      2016
+                        Submarkets  [ 2; 0; 3 ]
+                    }
+                    
+                    # Feature Integrated Security & Performance
+                    {
+                        Name        "Anti-DDoS Attack"
+                        Description "Security services to defend against DDoS attacks"
+                        DevTime     4
+                        Level       3
+                        CodeArt     1
+                        Unlock      2016
+                        Submarkets  [ 2; 0; 3 ]
+                    }
+
+                    # Feature Integrated Security & Performance
+                    {
                         Name        "Integrated Security & Performance"
                         Description "integrated security services to defend against DDoS attacks, customer data breaches, and abusive bots, while preventing performance"
                         DevTime     4
                         Level       3
                         CodeArt     1
+                        Unlock      2016
                         Submarkets  [ 2; 0; 3 ]
                     }
+                ]
+            }
+            {
+                Name		Front-End
+                Spec		2D
+                Optional	True
+                Description "Your UI/UX Websites"
+                DevTime		1
+                CodeArt		1
+                Submarkets	[ 2; 1; 3 ]
+                Features
+                [
+                    # Features Pages
+                    {
+                        Name        "Pages"
+                        DevTime     1.00
+                        Level       1
+                        CodeArt     1
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+                   
+                   # Sub-Feature Pages
+                   {
+                        Name        "↪ Front Pages/Landing Pages ↑"
+                        DevTime     1.01
+                        Level       1
+                        CodeArt     1
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+
+                   # Sub-Feature Pages
+                   {
+                        Name        "↪ User Registration/Login ↑"
+                        DevTime     1.02
+                        Level       1
+                        CodeArt     1
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+
+                    # Sub-Feature Pages
+                   {
+                        Name        "↪ User Profile Pages ↑"
+                        DevTime     1.03
+                        Level       1
+                        CodeArt     1
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+
+                    # Sub-Feature Pages
+                    {
+                        Name        "↪ User Settings ↑"
+                        DevTime     1.04
+                        Level       1
+                        CodeArt     1
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+
+                    # Sub-Feature Pages
+                    {
+                        Name        "↪ FAQ Pages ↑"
+                        DevTime     1.04
+                        Level       1
+                        CodeArt     1
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+
+                    # Features Timeline
+                    {
+                        Name        "Home Timeline"
+                        Description "User timeline for view friends post"
+                        DevTime     1.1
+                        Level       1
+                        CodeArt     1
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+
+                    # Features Emoji/Emoticon
+                    {
+                        Name        "Emoji/Emoticon"
+                        Description "Express your self with emoji/emoticon"
+                        DevTime     1.2
+                        Level       1
+                        CodeArt     1
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+
+                    # Features Sticker
+                    {
+                        Name        "Sticker"
+                        Description "Express your self with sticker"
+                        DevTime     1.30
+                        Level       1
+                        CodeArt     1
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+
+                    # Sub-Feature Sticker
+                    {
+                        Name        "↪ Custom Sticker ↑"
+                        Description "Wanna have unique/your self sticker? Lets make them!"
+                        DevTime     1.31
+                        Level       1
+                        CodeArt     1
+                        Submarkets  [ 1; 2; 1 ]
+                    }
+
+                    # Features Customize Photo Profile
+                    {
+                        Name        "Customize Photo Profile"
+                        DevTime     2
+                        Level       2
+                        CodeArt     1
+                        Submarkets  [ 1; 1; 2 ]
+                    }
+
+                    # Features Customize Header Profile
+                    {
+                        Name        "Customize Header Profile"
+                        DevTime     2
+                        Level       2
+                        CodeArt     1
+                        Unlock      2007
+                        Submarkets  [ 1; 1; 2 ]
+                    }
+
+                    # Features Customize Header Profile
+                    {
+                        Name        "Customize Information Profile"
+                        Description "Want to hide information? let's show only what's needed"
+                        DevTime     2
+                        Level       2
+                        CodeArt     1
+                        Unlock      2008
+                        Submarkets  [ 1; 1; 2 ]
+                    }
+
+                    # Features Customize Header Profile
+                    {
+                        Name        "Photo Gallery"
+                        Description "Make your photo gallery on your profile"
+                        DevTime     2
+                        Level       2
+                        CodeArt     1
+                        Server      0.0001
+                        Unlock      2009
+                        Submarkets  [ 1; 2; 1 ]
+                    }
+
+                    # Features Customize Header Profile
+                    {
+                        Name        "Drag n Drop Profile Management"
+                        Description "No need to bother managing your profile, just drag and drop!"
+                        DevTime     3
+                        Level       3
+                        CodeArt     1
+                        Unlock      2010
+                        Submarkets  [ 1; 1; 2 ]
+                    }
+
+                    # Features Customize Header Profile
+                    {
+                        Name        "Media Gallery"
+                        Description "It's not just a photo, but all media!"
+                        DevTime     3
+                        Level       3
+                        CodeArt     1
+                        Server      0.0002
+                        Unlock      2012
+                        Submarkets  [ 1; 2; 1 ]
+                    }
+
+                    # Features Customize Header Profile
+                    {
+                        Name        "Filters"
+                        Description "Let users add really cool filters to their uploads!"
+                        DevTime     3
+                        Level       3
+                        CodeArt     1
+                        Unlock      2012
+                        Submarkets  [ 2; 1; 1 ]
+                    }
+                ]
+            }
+            {
+                Name		Video System
+                Spec		3D
+                Optional	True
+                Description "Your video system"
+                DevTime		1
+                CodeArt		1
+                Submarkets	[ 2; 1; 3 ]
+                Features
+                [
+                    # Features Video Player
+                    {
+                        Name        "Video Player"
+                        Description "Allows users to playing video"
+                        DevTime     1
+                        Level       1
+                        CodeArt     1
+                        Submarkets  [ 2; 2; 1 ]
+                    }
+
+                    # Features Green Screen
+                    {
+                        Name        "Green Screen Support"
+                        Description "Allows users to use their green screens to apply effects and backgrounds."
+                        DevTime     1.10
+                        Level       1
+                        CodeArt     1
+                        Unlock      2013
+                        Submarkets  [ 1; 1; 2 ]
+                    }
+
+                    # Features Live Green Screen
+                    {
+                        Name        "↪ Live Green Screen Support ↑"
+                        Description "Allows users to use their green screens on their video."
+                        DevTime     1.11
+                        Level       1
+                        CodeArt     1
+                        Unlock      2014
+                        Submarkets  [ 2; 1; 1 ]
+                    }
+
+                    # Features Video Library
+                    {
+                        Name        "Video Library"
+                        Description "Allows users to save their video"
+                        DevTime     2.10
+                        Level       2
+                        CodeArt     1
+                        Server      0.0002
+                        Submarkets  [ 2; 1; 2 ]
+                    }
+
+                    # Sub-Features Video Library
+                    {
+                        Name        "↪ Private Video Library ↑"
+                        Description "Allows users to private their video"
+                        DevTime     2.10
+                        Level       2
+                        CodeArt     1
+                        Unlock      2010
+                        Server      0.0001
+                        Submarkets  [ 2; 1; 2 ]
+                    }
+
+                    # Features Broadcast Live Streaming
+                    {
+                        Name        "Broadcast Live Streaming"
+                        Description "Allows users to broadcast live streaming"
+                        DevTime     4
+                        Level       3
+                        CodeArt     1
+                        Unlock      2017
+                        Server      0.0005
+                        Submarkets  [ 3; 2; 2 ]
+                    }
+
+                    # Features Video Encoder
+                    {
+                        Name        "Video Encoder"
+                        Description "Allows users to encoder their video"
+                        DevTime     4
+                        Level       3
+                        CodeArt     1
+                        Unlock      2008
+                        Submarkets  [ 3; 1; 2 ]
+                    }
+                ]
+            }
+            {
+                Name		Audio System
+                Spec		Audio
+                Optional	True
+                Description "Your audio system"
+                DevTime		1
+                CodeArt		1
+                Submarkets	[ 2; 1; 3 ]
+                Features
+                [
+                    # Features Audio Player
+                    {
+                        Name        "Audio Player"
+                        Description "Allows users to playing audio"
+                        DevTime     1
+                        Level       1
+                        CodeArt     1
+                        Submarkets  [ 2; 2; 1 ]
+                    }
+
+                    # Features Video Library
+                    {
+                        Name        "Record Audio"
+                        Description "Allows users to record audio"
+                        DevTime     1.10
+                        Level       1
+                        CodeArt     1
+                        Submarkets  [ 2; 1; 2 ]
+                    }
+
+                    # Sub-Features Record Audio
+                    {
+                        Name        "↪ Record Voice Notes ↑"
+                        Description "Allows users to record audio for voice notes"
+                        DevTime     1.11
+                        Level       2
+                        CodeArt     1
+                        Unlock      2006
+                        Server      0.0001
+                        Submarkets  [ 2; 1; 2 ]
+                    }
+
+                    # Features Audio Encoder
+                    {
+                        Name        "Audio Encoder"
+                        Description "Allows users to encoder their audio"
+                        DevTime     3
+                        Level       2
+                        CodeArt     1
+                        Unlock      2008
+                        Submarkets  [ 3; 1; 2 ]
+                    }
+
+                    # Features Broadcast Podcast
+                    {
+                        Name        "Live Podcast"
+                        Description "Allows users to live podcast"
+                        DevTime     4
+                        Level       3
+                        CodeArt     1
+                        Server      0.0005
+                        Submarkets  [ 3; 2; 2 ]
+                    }
+
+                    # Features Broadcast Podcast
+                    {
+                        Name        "Podcast Library"
+                        Description "Allows users to replay past podcasts"
+                        DevTime     4
+                        Level       3
+                        CodeArt     1
+                        Server      0.0002
+                        Submarkets  [ 3; 2; 2 ]
+                    }
+                ]
             }
         ]
     }    
