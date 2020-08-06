@@ -11,7 +11,7 @@ SoftwareType
     InHouse			False
     Popularity	0.75
 	Retention	36
-	Iterative	0.5
+	Iterative	1
 	TimeScale	1
 	IdealPrice	80
 	Unlock		1965
@@ -52,7 +52,7 @@ SoftwareType
                         Level		1
                         CodeArt		1
                         Unlock      1968
-                        Submarkets	[ 0; 1; 1 ]
+                        Submarkets	[ 2; 1; 1 ]
                         }
 
                    # Sub-Feature Lower Level Language
@@ -62,7 +62,7 @@ SoftwareType
                         Level		1
                         CodeArt		1
                         Unlock      1970
-                        Submarkets	[ 0; 1; 1 ]
+                        Submarkets	[ 2; 1; 1 ]
                         }
 
                     # Sub-Feature Lower Level Language
@@ -72,7 +72,7 @@ SoftwareType
                         Level		1
                         CodeArt		1
                         Unlock      1975
-                        Submarkets	[ 0; 1; 1 ]
+                        Submarkets	[ 2; 1; 1 ]
                         }
                                    
 					# Feature Machine Code
@@ -91,7 +91,7 @@ SoftwareType
 					    DevTime		1.12
 					    Level		1
 					    CodeArt		1					    
-					    Submarkets	[ 1; 0; 1 ]
+					    Submarkets	[ 1; 1; 0 ]
 					}
                     
                     # Supersede Feature Machine Code
@@ -100,7 +100,7 @@ SoftwareType
                         DevTime		1.13
                         Level		1
                         CodeArt		1                        
-                        Submarkets	[ 1; 0; 1 ]
+                        Submarkets	[ 1; 1; 0 ]
                     }
                     
                     # Supersede Feature Machine Code
@@ -109,7 +109,7 @@ SoftwareType
                         DevTime		1.14
                         Level		1
                         CodeArt		1                        
-                        Submarkets	[ 1; 0; 1 ]
+                        Submarkets	[ 1; 1; 0 ]
                     }
                         
 					# Supersede Feature Machine Code
@@ -118,7 +118,7 @@ SoftwareType
                         DevTime		1.15
                         Level		1
                         CodeArt		1                        
-                        Submarkets	[ 1; 0; 1 ]
+                        Submarkets	[ 1; 1; 0 ]
                     }
 
                     # Supersede Feature Machine Code
@@ -128,7 +128,7 @@ SoftwareType
                         Level		1
                         CodeArt		1
                         Unlock		1975
-                        Submarkets	[ 1; 0; 1 ]
+                        Submarkets	[ 2; 1; 1 ]
                     }
 
                     # Supersede Feature Machine Code
@@ -169,7 +169,7 @@ SoftwareType
                         Level		1
                         CodeArt		1
                         Unlock		1976
-                        Submarkets	[ 1; 0; 1 ]
+                        Submarkets	[ 2; 0; 1 ]
                     }
 
                     # Supersede Feature Assembly Language
@@ -179,7 +179,7 @@ SoftwareType
                         Level		1
                         CodeArt		1
                         Unlock		1976
-                        Submarkets	[ 1; 0; 1 ]
+                        Submarkets	[ 1; 1; 2 ]
                     }
 
                     # Supersede Feature Assembly Language
@@ -189,7 +189,7 @@ SoftwareType
                         Level		1
                         CodeArt		1
                         Unlock		1977
-                        Submarkets	[ 1; 0; 1 ]
+                        Submarkets	[ 1; 2; 1 ]
                     }
 
                     # Supersede Feature Assembly Language
@@ -209,7 +209,7 @@ SoftwareType
                         Level		1
                         CodeArt		1
                         Unlock		1980
-                        Submarkets	[ 1; 0; 1 ]
+                        Submarkets	[ 1; 1; 2 ]
                     }
 
                     # Supersede Feature Assembly Language
@@ -219,7 +219,7 @@ SoftwareType
                         Level		1
                         CodeArt		1
                         Unlock		1981
-                        Submarkets	[ 1; 0; 1 ]
+                        Submarkets	[ 1; 0; 2 ]
                     }
 
                     # Supersede Feature Assembly Language
@@ -229,7 +229,7 @@ SoftwareType
                         Level		1
                         CodeArt		1
                         Unlock		1985
-                        Submarkets	[ 1; 0; 1 ]
+                        Submarkets	[ 1; 0; 2 ]
                     }
 
                     # Feature Object Code
@@ -239,7 +239,7 @@ SoftwareType
                         Level       1
                         CodeArt     1
                         Unlock      1979
-                        Submarkets	[ 1; 0; 1 ]
+                        Submarkets	[ 0; 2; 1 ]
                     }
                     
                     # Supersede Feature Object Code
@@ -249,7 +249,7 @@ SoftwareType
                         Level		1
                         CodeArt		1
                         Unlock		1980
-                        Submarkets	[ 1; 0; 1 ]
+                        Submarkets	[ 1; 2; 1 ]
                     }
 
                     # Supersede Feature Object Code
@@ -259,7 +259,7 @@ SoftwareType
                         Level		1
                         CodeArt		1
                         Unlock		1984
-                        Submarkets	[ 1; 0; 1 ]
+                        Submarkets	[ 1; 2; 1 ]
                     }
 
                     # Supersede Feature Object Code
@@ -269,7 +269,7 @@ SoftwareType
                         Level		1
                         CodeArt		1
                         Unlock		1990
-                        Submarkets	[ 1; 0; 1 ]
+                        Submarkets	[ 1; 2; 2 ]
                     }
 
                     # Supersede Feature Object Code
@@ -279,7 +279,7 @@ SoftwareType
                         Level		1
                         CodeArt		1
                         Unlock		1998
-                        Submarkets	[ 1; 0; 1 ]
+                        Submarkets	[ 1; 2; 1 ]
                     }
 
                     # Supersede Feature Object Code
@@ -289,7 +289,7 @@ SoftwareType
                         Level		1
                         CodeArt		1
                         Unlock		2000
-                        Submarkets	[ 1; 0; 1 ]
+                        Submarkets	[ 1; 1; 2 ]
                     }
 
                     # Feature Functional Features
@@ -299,7 +299,7 @@ SoftwareType
                         Level       1
                         CodeArt		1
                         Unlock		1982
-                        Submarkets	[ 1; 0; 1 ]
+                        Submarkets	[ 1; 0; 2 ]
                     }
 
                     # Supersede Feature Functional Features
@@ -309,7 +309,7 @@ SoftwareType
                         Level		1
                         CodeArt		1
                         Unlock		1987
-                        Submarkets	[ 1; 0; 1 ]
+                        Submarkets	[ 1; 0; 2 ]
                     }
 
                     # Supersede Feature Functional Features
@@ -319,7 +319,7 @@ SoftwareType
                         Level		1
                         CodeArt		1
                         Unlock		1995
-                        Submarkets	[ 1; 0; 1 ]
+                        Submarkets	[ 0; 1; 2 ]
                     }
 
                     # Feature Sctructured Programming
@@ -329,7 +329,7 @@ SoftwareType
                         Level       2
                         CodeArt     1
                         Unlock      1994
-                        Submarkets	[ 1; 0; 1 ]
+                        Submarkets	[ 2; 1; 0 ]
                     }
 
                     # Supersede Sctructured Programming
@@ -339,7 +339,7 @@ SoftwareType
                         Level		2
                         CodeArt		1
                         Unlock		1997
-                        Submarkets	[ 1; 0; 1 ]
+                        Submarkets	[ 1; 2; 1 ]
                     }
 
                      # Supersede Sctructured Programming
@@ -349,7 +349,7 @@ SoftwareType
                         Level		2
                         CodeArt		1
                         Unlock		2001
-                        Submarkets	[ 1; 0; 1 ]
+                        Submarkets	[ 1; 2; 1 ]
                     }
 
                      # Supersede Sctructured Programming
@@ -359,7 +359,7 @@ SoftwareType
                         Level		2
                         CodeArt		1
                         Unlock		2004
-                        Submarkets	[ 1; 0; 1 ]
+                        Submarkets	[ 1; 1; 2 ]
                     }
 
                     # Feature Basic Memory
@@ -379,7 +379,7 @@ SoftwareType
                         Level       2
                         CodeArt     1
                         Unlock      1985
-                        Submarkets	[ 1; 0; 1 ]
+                        Submarkets	[ 2; 0; 1 ]
                     }
 
                     # Feature Level 3
@@ -389,7 +389,7 @@ SoftwareType
                         Level       3
                         CodeArt     1
                         Unlock      2000
-                        Submarkets  [ 1; 0; 1 ]
+                        Submarkets  [ 2; 0; 1 ]
                     }
 
                     # Feature Level 3
@@ -399,7 +399,7 @@ SoftwareType
                         Level       3
                         CodeArt     1
                         Unlock      1999
-                        Submarkets  [ 1; 0; 1 ]
+                        Submarkets  [ 2; 1; 1 ]
                     }
 
                     # Feature Level 3
@@ -409,7 +409,7 @@ SoftwareType
                         Level       3
                         CodeArt     1
                         Unlock      2004
-                        Submarkets  [ 1; 0; 1 ]
+                        Submarkets  [ 2; 1; 2 ]
                     }
 
                     # Feature Level 3
@@ -419,7 +419,7 @@ SoftwareType
                         Level       3
                         CodeArt     1
                         Unlock      2006
-                        Submarkets  [ 1; 0; 1 ]
+                        Submarkets  [ 2; 1; 2 ]
                     }
 
                     # Feature Level 3
@@ -429,7 +429,7 @@ SoftwareType
                         Level       3
                         CodeArt     1
                         Unlock      2010
-                        Submarkets  [ 1; 0; 1 ]
+                        Submarkets  [ 1; 2; 1 ]
                     }
 
 				]
