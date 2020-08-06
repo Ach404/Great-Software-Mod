@@ -1,0 +1,17 @@
+CompanyType
+	{
+	Specialization		Website Social Media
+	PerYear				0.2
+	Min					2
+    Max					3
+    Framework           True
+	Types
+		[
+			{
+				Software	"Website"
+				Category	Social Media	
+				Chance		1
+				Force		True
+			}
+		]
+	}

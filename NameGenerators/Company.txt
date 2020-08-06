@@ -1,0 +1,127 @@
+[REPLACE]
+-start(base)
+-base(stop)
+2K
+2S Games
+AMD 
+ASUS
+Acer
+AT&T
+Activision
+Alibaba
+Amazon
+Apple
+Arkane Studios
+AsRock
+ATI
+Avalanche Studios 
+Aviato
+AVM
+Bandai
+Bethesda
+Blackberry
+Blizzard
+Blue Hole
+Bohemia Interactive
+Broadcom
+CD Projekt Red
+Capcom
+Cisco
+Cloudflare
+Codemasters
+Colossal Order Ltd.
+CoreDumping
+Creative Assembly
+Croteam
+DICE
+Devolver Digital
+Dell
+Digital Extremes
+Dreamworks
+EA Games
+Eidos Interactive
+Enix
+Epic Games
+FROM SOFTWARE
+Facepunch
+Facebook
+Feral Interactive
+Firaxis
+Firefly Studios
+Fujitsu
+Fox
+Foxconn
+Gear Head Studios
+Gearbox Software
+Gigabyte
+Global Star Software
+Global Foundries
+Google
+Hewlett-Packard‎
+Hitachi
+Hooli
+Huawei
+IBM
+ID Software
+Infineon
+Intel
+Irrational Games
+Koei
+Konami
+Lenovo
+Logitech
+MSI
+Machine Games
+Microsoft
+Motorola
+Namco
+NCsoft
+Netflix Inc.
+Nokia
+Novell
+NVidia
+Nintendo
+Obsidian Entertainment
+Offworld Industries
+Oracle
+Overkill Software
+Paradox Interactive
+Paramount Pictures
+Pied Piper
+Platinum Games
+PopTop Software
+Qualcomm
+Razer
+Rockstar
+SAP
+SCS Software
+SEGA
+Samsung
+SanDisk
+Sapphire
+Seagate
+Sharp
+Siemens
+Sony Interactive
+Square
+Sun Microsystems
+THQ
+Take-Two Interactive
+Team17
+Tecmo
+Telekom
+Tencent
+Texas Instruments
+Toshiba
+Tripwire
+Triumph Studios
+TSMC
+Ubisoft
+Valve
+Visual Concepts
+Verizon
+Warner Bros.
+Walt Disney
+Western Digital
+Yahoo
+ZeniMax

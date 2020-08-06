@@ -1,0 +1,17 @@
+CompanyType
+	{
+	Specialization		Website Dating
+	PerYear				0.2
+	Min					1
+    Max					2
+    Framework           True
+	Types
+		[
+			{
+				Software	"Website"
+				Category	Dating Apps	
+				Chance		1
+				Force		True
+			}
+		]
+	}

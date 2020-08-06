@@ -1,0 +1,17 @@
+CompanyType
+	{
+	Specialization		Website Video Platform
+	PerYear				0.2
+	Min					2
+    Max					3
+    Framework           True
+	Types
+		[
+			{
+				Software	"Website"
+				Category	Video Platform	
+				Chance		1
+				Force		True
+			}
+		]
+	}

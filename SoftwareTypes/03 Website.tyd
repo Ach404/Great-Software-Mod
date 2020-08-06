@@ -6,42 +6,44 @@ SoftwareType
 	Random			0.25
 	OptimalDevTime	24
 	SubmarketNames	[ "Addictive"; "Dark"; "Usability" ]
-	NameGenerator	Website
 	InHouse			False
 	Categories
 		[
 			{
-			    Name		Social Media
-			    Description	"Platform Social Media"
-			    Popularity	0.8
-			    Retention	250
-			    Iterative	0.75
-			    TimeScale	1
-			    IdealPrice	10
-			    Unlock		2004
-			    Submarkets	[ 4; 1; 2 ]
+			    Name		    "Social Media"
+			    Description	    "Platform Social Media"
+			    Popularity	    0.8
+			    Retention	    250
+			    Iterative	    0.75
+			    TimeScale	    1
+			    IdealPrice	    48
+                Unlock		    2004
+                NameGenerator   WebsiteSocialMedia   
+			    Submarkets	    [ 4; 1; 2 ]
 			}
 			{
-			    Name		Dating Apps
-			    Description	"Say no to Single!"
-			    Popularity	0.6
-			    Retention	250
-			    Iterative	0.9
-			    TimeScale	1
-			    IdealPrice	12
-			    Unlock		2005
-			    Submarkets	[ 2; 1; 2 ]
+			    Name		    "Dating Apps"
+			    Description	    "Say no to Single!"
+			    Popularity	    0.6
+			    Retention	    250
+			    Iterative	    0.9
+			    TimeScale	    1
+			    IdealPrice	    48
+                Unlock		    2005
+                NameGenerator   WebsiteDating
+			    Submarkets	    [ 2; 1; 2 ]
             }
             {
-                Name		Video Platform
-                Description	"Platform Social Video like a Youtube"
-                Popularity	1
-                Retention	250
-                Iterative	0.6
-                TimeScale	1
-                IdealPrice	8
-                Unlock		2006
-                Submarkets	[ 4; 2; 1 ]
+                Name		    "Video Platform"
+                Description	    "Platform Social Video like a Youtube"
+                Popularity	    1
+                Retention	    250
+                Iterative	    0.6
+                TimeScale	    1
+                IdealPrice	    50
+                Unlock		    2006
+                NameGenerator   WebsiteVideo
+                Submarkets	    [ 4; 2; 1 ]
             }
 		]
 	Features
