@@ -1,0 +1,438 @@
+SoftwareType
+	{
+	Name			"Programming Language"
+	Category		Programming Language
+	Description		"A programming language is a formal language comprising a set of instructions that produce various kinds of output"
+	Random			0.2
+	OptimalDevTime	36
+	SubmarketNames	[ "Data-Oriented"; "Object-Oriented"; "Function-Oriented" ]
+	OSSupport		[ Computer; Phone ]
+	NameGenerator	Programming Language
+    InHouse			False
+    Popularity	0.75
+	Retention	36
+	Iterative	0.5
+	TimeScale	1
+	IdealPrice	80
+	Unlock		1965
+	Features
+		[
+			{
+			Name		Systems
+			Spec		System
+			Description "Programming Language systems"
+			DevTime		2
+			CodeArt		1
+			Submarkets	[ 1; 1; 2 ]
+			Features
+				[
+					# Feature Lower Level Language
+					{
+					Name		"Lower Level Language"
+					DevTime		1.00
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 0; 0 ]
+					}
+					
+					# Sub-Feature Lower Level Language
+					{
+					Name		"↪ Architecture ↑"
+					Description "Intruction set architecture command or function language map closely to processor intruction"
+					DevTime		1.02
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+                    
+                    # Sub-Feature Lower Level Language
+					{
+                        Name		"↪ Mathematical Expression ↑"                        
+                        DevTime		1.02
+                        Level		1
+                        CodeArt		1
+                        Unlock      1968
+                        Submarkets	[ 0; 1; 1 ]
+                        }
+
+                   # Sub-Feature Lower Level Language
+					{
+                        Name		"↪ Parallel Blocks ↑"
+                        DevTime		1.03
+                        Level		1
+                        CodeArt		1
+                        Unlock      1970
+                        Submarkets	[ 0; 1; 1 ]
+                        }
+
+                    # Sub-Feature Lower Level Language
+					{
+                        Name		"↪ Automatic Type Coercions ↑"
+                        DevTime		1.05
+                        Level		1
+                        CodeArt		1
+                        Unlock      1975
+                        Submarkets	[ 0; 1; 1 ]
+                        }
+                                   
+					# Feature Machine Code
+					{
+					Name		"Machine Code"
+					Description "Code for machine?"
+					DevTime		1.10
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 0; 1 ]
+					}
+					
+					# Supersede Feature Machine Code
+					{
+					    Name		"↪ Binary ↑"					
+					    DevTime		1.12
+					    Level		1
+					    CodeArt		1					    
+					    Submarkets	[ 1; 0; 1 ]
+					}
+                    
+                    # Supersede Feature Machine Code
+					{
+                        Name		"↪ Decimal ↑"					
+                        DevTime		1.13
+                        Level		1
+                        CodeArt		1                        
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+                    
+                    # Supersede Feature Machine Code
+					{
+                        Name		"↪ Octal ↑"					
+                        DevTime		1.14
+                        Level		1
+                        CodeArt		1                        
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+                        
+					# Supersede Feature Machine Code
+					{
+                        Name		"↪ Hexadecimal ↑"					
+                        DevTime		1.15
+                        Level		1
+                        CodeArt		1                        
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                    # Supersede Feature Machine Code
+					{
+                        Name		"↪ Floating-point Arithmetic ↑"					
+                        DevTime		1.16
+                        Level		1
+                        CodeArt		1
+                        Unlock		1975
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                    # Supersede Feature Machine Code
+					{
+                        Name		"↪ Loader ↑"
+                        Description Translated Binary Data to Internal Format					
+                        DevTime		1.17
+                        Level		1
+                        CodeArt		1
+                        Unlock		1980
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+                        
+                    # Supersede Feature Machine Code
+					{
+                        Name		"↪ Portable Arithmetic ↑"					
+                        DevTime		1.18
+                        Level		1
+                        CodeArt		1
+                        Unlock		2014
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+                    
+                    # Feature Assembly Language
+                    {
+                        Name        "Assembly Language"
+                        DevTime     1.20
+                        Level       1
+                        CodeArt     1
+                        Unlock      1976
+                        Submarkets  [ 1; 0; 2 ]
+                    }
+
+                    # Supersede Feature Assembly Language
+                    {
+                        Name		"↪ Symbolic Labels ↑"					
+                        DevTime		1.21
+                        Level		1
+                        CodeArt		1
+                        Unlock		1976
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                    # Supersede Feature Assembly Language
+                    {
+                        Name		"↪ Architectural Register ↑"					
+                        DevTime		1.22
+                        Level		1
+                        CodeArt		1
+                        Unlock		1976
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                    # Supersede Feature Assembly Language
+                    {
+                        Name		"↪ Numerical Package ↑"					
+                        DevTime		1.23
+                        Level		1
+                        CodeArt		1
+                        Unlock		1977
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                    # Supersede Feature Assembly Language
+                    {
+                        Name		"↪ Small Memory Footprint ↑"					
+                        DevTime		1.24
+                        Level		1
+                        CodeArt		1
+                        Unlock		1978
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                    # Supersede Feature Assembly Language
+                    {
+                        Name		"↪ Bit and Boolean Data Types ↑"					
+                        DevTime		1.25
+                        Level		1
+                        CodeArt		1
+                        Unlock		1980
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                    # Supersede Feature Assembly Language
+                    {
+                        Name		"↪ Pointers and Syntax ↑"					
+                        DevTime		1.26
+                        Level		1
+                        CodeArt		1
+                        Unlock		1981
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                    # Supersede Feature Assembly Language
+                    {
+                        Name		"↪ Hierarchial Structures ↑"					
+                        DevTime		1.27
+                        Level		1
+                        CodeArt		1
+                        Unlock		1985
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                    # Feature Object Code
+                    {
+                        Name        "Object Code"
+                        DevTime     1.30
+                        Level       1
+                        CodeArt     1
+                        Unlock      1979
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+                    
+                    # Supersede Feature Object Code
+                    {
+                        Name		"↪ Register Transfer Language ↑"					
+                        DevTime		1.31
+                        Level		1
+                        CodeArt		1
+                        Unlock		1980
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                    # Supersede Feature Object Code
+                    {
+                        Name		"↪ Executable File ↑"					
+                        DevTime		1.32
+                        Level		1
+                        CodeArt		1
+                        Unlock		1984
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                    # Supersede Feature Object Code
+                    {
+                        Name		"↪ Library File ↑"					
+                        DevTime		1.33
+                        Level		1
+                        CodeArt		1
+                        Unlock		1990
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                    # Supersede Feature Object Code
+                    {
+                        Name		"↪ Library Extensions ↑"					
+                        DevTime		1.35
+                        Level		1
+                        CodeArt		1
+                        Unlock		1998
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                    # Supersede Feature Object Code
+                    {
+                        Name		"↪ Library Networking ↑"					
+                        DevTime		1.37
+                        Level		1
+                        CodeArt		1
+                        Unlock		2000
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                    # Feature Functional Features
+                    {
+                        Name        "Functional Features"
+                        DevTime     1.40
+                        Level       1
+                        CodeArt		1
+                        Unlock		1982
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                    # Supersede Feature Functional Features
+                    {
+                        Name		"↪ Virtual Functions ↑"					
+                        DevTime		1.42
+                        Level		1
+                        CodeArt		1
+                        Unlock		1987
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                    # Supersede Feature Functional Features
+                    {
+                        Name		"↪ Local Functions ↑"					
+                        DevTime		1.45
+                        Level		1
+                        CodeArt		1
+                        Unlock		1995
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                    # Feature Sctructured Programming
+                    {
+                        Name        "Sctructured Programming"
+                        DevTime     2.00
+                        Level       2
+                        CodeArt     1
+                        Unlock      1994
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                    # Supersede Sctructured Programming
+                    {
+                        Name		"↪ One-pass Compilers ↑"					
+                        DevTime		2.01
+                        Level		2
+                        CodeArt		1
+                        Unlock		1997
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                     # Supersede Sctructured Programming
+                     {
+                        Name		"↪ Driver Function ↑"					
+                        DevTime		2.02
+                        Level		2
+                        CodeArt		1
+                        Unlock		2001
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                     # Supersede Sctructured Programming
+                     {
+                        Name		"↪ Variable Integers ↑"					
+                        DevTime		2.03
+                        Level		2
+                        CodeArt		1
+                        Unlock		2004
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                    # Feature Basic Memory
+                    {
+                        Name        "Basic Memory"
+                        DevTime     2.10
+                        Level       2
+                        CodeArt     1
+                        Unlock      1973
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                    # Supersede Feature Basic Memory
+                    {
+                        Name        "↪ Dynamic Memory ↑"
+                        DevTime     2.12
+                        Level       2
+                        CodeArt     1
+                        Unlock      1985
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                    # Feature Level 3
+                    {
+                        Name        "Visual Programming Suite"
+                        DevTime     3
+                        Level       3
+                        CodeArt     1
+                        Unlock      2000
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+
+                    # Feature Level 3
+                    {
+                        Name        "Meta Programming"
+                        DevTime     3
+                        Level       3
+                        CodeArt     1
+                        Unlock      1999
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+
+                    # Feature Level 3
+                    {
+                        Name        "Source-Language Diagnostics"
+                        DevTime     3
+                        Level       3
+                        CodeArt     1
+                        Unlock      2004
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+
+                    # Feature Level 3
+                    {
+                        Name        "Object Code Optimization"
+                        DevTime     3
+                        Level       3
+                        CodeArt     1
+                        Unlock      2006
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+
+                    # Feature Level 3
+                    {
+                        Name        "Source-to-Source Compiler"
+                        DevTime     3
+                        Level       3
+                        CodeArt     1
+                        Unlock      2010
+                        Submarkets  [ 1; 0; 1 ]
+                    }
+
+				]
+			}
+		]
+	}
