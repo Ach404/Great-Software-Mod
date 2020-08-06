@@ -38,11 +38,12 @@ SoftwareType
 		[
 			{
 				Name		System Browser
-				Spec		System
-				Description "Browser features"
-				DevTime		2
-				CodeArt		1
-				Submarkets	[ 1; 1; 2 ]
+				Spec			System
+				Description 	"Browser features"
+				Dependencies	Programming Language
+				DevTime			2
+				CodeArt			1
+				Submarkets		[ 1; 1; 2 ]
 				Features
 				[
 					# Feature Text Document Index
@@ -149,12 +150,12 @@ SoftwareType
 						DevTime		1.9
 						Level		2
 						CodeArt		1
+						Submarkets	[ 1; 0; 1 ]
 						SoftwareCategories 
 						[	
 							[ Computer ; 2014 ]
 							[ Phone ; 2016 ]
-						]
-						Submarkets	[ 1; 0; 1 ]
+						]						
 					}
 					
 					# Feature Security Browsing
@@ -186,12 +187,12 @@ SoftwareType
 						DevTime		2.08
 						Level		2
 						CodeArt		1
+						Submarkets	[ 2; 1; 1 ]
 						SoftwareCategories 
 						[	
 							[ Computer ; 2005 ]
 							[ Phone ; 2006 ]
-						]
-						Submarkets	[ 2; 1; 1 ]
+						]						
 					}
 
 					# Supersede Feature Enhanced Protection
@@ -201,12 +202,12 @@ SoftwareType
 						DevTime		2.09
 						Level		2
 						CodeArt		1
+						Submarkets	[ 2; 1; 1 ]
 						SoftwareCategories 
 						[	
 							[ Computer ; 2009 ]
 							[ Phone ; 2013 ]
 						]
-						Submarkets	[ 2; 1; 1 ]
 					}
 					
 					# Supersede Feature Download Management
@@ -253,12 +254,12 @@ SoftwareType
 						DevTime		3.29
 						Level		2
 						CodeArt		1
+						Submarkets	[ 1; 1; 0 ]
 						SoftwareCategories 
 						[	
 							[ Computer ; 2008 ]
 							[ Phone ; 2010 ]
-						]
-					Submarkets	[ 1; 1; 0 ]
+						]					
 					}
 					
 					# Feature User Management
@@ -301,12 +302,12 @@ SoftwareType
 						DevTime		3.19
 						Level		2
 						CodeArt		1
-						SoftwareCategories 
+						Submarkets	[ 0; 1; 1 ]
+						SoftwareCategories
 						[	
 							[ Computer ; 2011 ]
 							[ Phone ; 2015 ]
 						]
-						Submarkets	[ 0; 1; 1 ]
 					}
 					
 					# Feature
@@ -412,6 +413,7 @@ SoftwareType
 						Level		2
 						CodeArt		0.5
 						Unlock		2015
+						Submarkets	[ 1; 0; 1 ]
 					}
 				]
 			}
@@ -479,6 +481,7 @@ SoftwareType
 						Level		3
 						CodeArt		1
 						Unlock		2015
+						Server		0.0001
 						Submarkets	[0; 1; 2 ]
 					}
 					{

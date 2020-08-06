@@ -4,6 +4,8 @@ CompanyType
 	PerYear				0.2
 	Min					2
 	Max					3
+	Framework           True
+	NameGen				CompanyBrowser
 	Types
 		[
 			{

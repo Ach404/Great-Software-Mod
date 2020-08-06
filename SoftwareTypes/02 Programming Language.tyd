@@ -3,18 +3,19 @@ SoftwareType
 	Name			"Programming Language"
 	Category		Programming Language
 	Description		"A programming language is a formal language comprising a set of instructions that produce various kinds of output"
-	Random			0.2
-	OptimalDevTime	25
+	Random			0.22
+	OptimalDevTime	24
 	SubmarketNames	[ "Data-Oriented"; "Object-Oriented"; "Function-Oriented" ]
-	OSSupport		[ Computer ]
+	OSSupport		[ Computer; Phone ]
 	NameGenerator	ProgrammingLanguage
     InHouse			False
-    Popularity	0.75
-	Retention	36
-	Iterative	1
-	TimeScale	1
-	IdealPrice	80
-	Unlock		1965
+    Popularity	    0.75
+	Retention	    36
+	Iterative	    0.85
+	TimeScale	    1
+	IdealPrice	    80
+    Unlock		    1965
+    Submarkets      [ 1; 1; 2 ]
 	Features
 		[
 			{

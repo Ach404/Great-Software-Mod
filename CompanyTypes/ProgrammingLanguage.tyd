@@ -1,0 +1,16 @@
+CompanyType
+	{
+	Specialization		Programming Language
+	PerYear				0.2
+	Min					2
+    Max					3
+    Framework           True
+	Types
+		[
+			{
+			Software	Programming Language
+			Chance		1
+			Force		True
+			}
+		]
+	}

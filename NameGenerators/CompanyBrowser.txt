@@ -1,0 +1,37 @@
+[REPLACE]
+-start(base)
+-base(stop)
+Qihoo Company
+Microsoft Trident
+Nullsoft
+Deepnet Security
+MediaBrowser
+Cloanto Corporation
+Bigfoot International
+RealNetworks
+FlashPeak, Inc
+Mozilla Foundation
+Cliqz GmbH
+AT&T
+Comodo Group
+Nokia
+Flock, Inc
+Netscape Communication
+Xero Network
+TOR Project
+Maxthon Ltd
+Yahoo!
+SeaMonkey Council
+Baidu, Inc
+Avant Force
+Lunascape Corporation
+KDE International
+Opera Software
+Bitstream Inc
+Google LLC
+MoboTrap Inc
+Torch Mobile
+Omni Group
+Apple
+Valve
+
