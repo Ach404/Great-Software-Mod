@@ -501,7 +501,105 @@ SoftwareType
 					    Submarkets	[ 1; 2; 0 ]
                     }
 
+                     # Feature Structured Query Language
+					{
+					    Name		"Structured Query Language"
+					    DevTime		2
+					    Level		3
+                        CodeArt		1
+                        Unlock      1970
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Data Repsentation
+					{
+					    Name		"Data Repsentation"
+					    DevTime		2.20
+					    Level		3
+                        CodeArt		1
+                        Unlock      1985
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Object-Oriented Model
+					{
+					    Name		"Object-Oriented Model"
+					    DevTime		2.5
+					    Level		3
+                        CodeArt		1
+                        Unlock      1990
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature User Privileges
+					{
+					    Name		"User Privileges"
+					    DevTime		2.8
+					    Level		3
+                        CodeArt		1
+                        Unlock      1991
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Dynamic Execution Queries
+					{
+					    Name		"Dynamic Execution Queries"
+					    DevTime		2.9
+					    Level		3
+                        CodeArt		1
+                        Unlock      1993
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Extension Support
+					{
+					    Name		"Extension Support"
+					    DevTime		3
+					    Level		3
+                        CodeArt		1
+                        Unlock      1999
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Metadata
+					{
+					    Name		"Metadata"
+					    DevTime		3.1
+					    Level		3
+                        CodeArt		1
+                        Unlock      2000
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Integrate Cross-Data
+					{
+					    Name		"Integrate Cross-Data"
+					    DevTime		3.2
+					    Level		3
+                        CodeArt		1
+                        Unlock      2006
+					    Submarkets	[ 1; 2; 0 ]
+                    }
                     
+                    # Feature Enchancements Derived Column
+					{
+					    Name		"Enchancements Derived Column"
+					    DevTime		3.3
+					    Level		3
+                        CodeArt		1
+                        Unlock      2008
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Polymorphic Table Functions
+					{
+					    Name		"Polymorphic Table Functions"
+					    DevTime		3.4
+					    Level		3
+                        CodeArt		1
+                        Unlock      2017
+					    Submarkets	[ 1; 2; 0 ]
+                    }
 				]
 			}
 		]
