@@ -1,0 +1,508 @@
+SoftwareType
+	{
+	Name			"Database"
+	Category		Database
+	Description		"A programming language is a formal language comprising a set of instructions that produce various kinds of output"
+	Random			0.17
+	OptimalDevTime	36
+	SubmarketNames	[ "Data-Oriented"; "Object-Oriented"; "Function-Oriented" ]
+	OSSupport		Computer
+	NameGenerator	Database
+    InHouse			False
+    Popularity	    0.55
+	Retention	    95
+	Iterative	    0.75
+	TimeScale	    1
+	IdealPrice	    70
+    Unlock		    1960
+    Submarkets      [ 2; 1; 2 ]
+	Features
+		[
+			{
+			Name		Structural
+			Spec		System
+			Description "Structural database system"
+			DevTime		2
+			CodeArt		1
+			Submarkets	[ 3; 2; 2 ]
+			Features
+				[
+					# Feature Character
+					{
+					    Name		"Character"
+					    DevTime		1.00
+					    Level		1
+					    CodeArt		1
+					    Submarkets	[ 1; 0; 1 ]
+					}
+					
+					# Sub-Feature Character
+					{
+					    Name		"↪ Character Varying ↑"
+					    Description "New function VCHAR"
+					    DevTime		1.02
+					    Level		1
+					    CodeArt		1
+					    Submarkets	[ 1; 0; 1 ]
+					}
+                    
+                    # Sub-Feature Character
+					{
+                        Name		"↪ Character Large Object ↑"                        
+                        DevTime		1.03
+                        Level		1
+                        CodeArt		1
+                        Unlock      1968
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                    # Feature Binary
+					{
+					    Name		"Binary"
+					    DevTime		1.10
+					    Level		1
+					    CodeArt		1
+					    Submarkets	[ 1; 0; 1 ]
+					}
+					
+					# Sub-Feature Binary
+					{
+					    Name		"↪ Binary Varying ↑"
+					    Description "New function VCHAR"
+					    DevTime		1.11
+					    Level		1
+					    CodeArt		1
+					    Submarkets	[ 1; 0; 1 ]
+					}
+                    
+                    # Sub-Feature Binary
+					{
+                        Name		"↪ Binary Large Object ↑"                        
+                        DevTime		1.12
+                        Level		1
+                        CodeArt		1
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                    # Feature Numeric
+					{
+					    Name		"Numeric"
+					    DevTime		1.20
+					    Level		1
+					    CodeArt		1
+					    Submarkets	[ 1; 0; 1 ]
+					}
+					
+					# Sub-Feature Numeric
+					{
+					    Name		"↪ Exact Numeric ↑"
+					    DevTime		1.21
+					    Level		1
+					    CodeArt		1
+					    Submarkets	[ 1; 0; 1 ]
+					}
+                    
+                    # Sub-Feature Numeric
+					{
+                        Name		"↪ Approximate Numeric ↑"                        
+                        DevTime		1.22
+                        Level		1
+                        CodeArt		1
+                        Submarkets	[ 1; 0; 1 ]
+                    }
+
+                    # Feature Syntax
+					{
+					    Name		"Syntax"
+					    DevTime		1.30
+					    Level		1
+					    CodeArt		1
+					    Submarkets	[ 1; 0; 1 ]
+					}
+
+                    # Sub-Feature Syntax
+                    {
+                        Name		"↪ Clauses ↑"
+                        Description "Which are constituent components of statements and queries"                        
+                        DevTime		1.31
+                        Level		1
+                        CodeArt		1
+                        Submarkets	[ 1; 1; 2 ]
+                    }
+
+                    # Sub-Feature Syntax
+                    {
+                        Name		"↪ Expressions ↑"
+                        Description "Which can produce either scalar values, or tables consisting of columns and rows of data"                        
+                        DevTime		1.32
+                        Level		1
+                        CodeArt		1
+                        Submarkets	[ 1; 1; 2 ]
+                    }
+
+                    # Sub-Feature Syntax
+                    {
+                        Name		"↪ Predicates ↑"
+                        Description "Specify conditions that can be evaluated"                        
+                        DevTime		1.33
+                        Level		1
+                        CodeArt		1
+                        Submarkets	[ 1; 1; 2 ]
+                    }
+
+                    # Sub-Feature Syntax
+                    {
+                        Name		"↪ Queries ↑"
+                        Description "Which retrieve the data based on specific criteria"                        
+                        DevTime		1.34
+                        Level		1
+                        CodeArt		1
+                        Submarkets	[ 1; 1; 2 ]
+                    }
+
+                    # Sub-Feature Syntax
+                    {
+                        Name		"↪ Statemets ↑"
+                        Description "Which may have a persistent effect on schemata and data"                        
+                        DevTime		1.35
+                        Level		1
+                        CodeArt		1
+                        Submarkets	[ 1; 1; 2 ]
+                    }
+
+                    # Feature Network Model
+					{
+					    Name		"Network Model"
+					    DevTime		1.40
+					    Level		1
+					    CodeArt		1
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+                    
+                    # Sub-Feature Network Model
+                    {
+                        Name		"↪ Record ↑"                    
+                        DevTime		1.41
+                        Level		1
+                        CodeArt		1
+                        Submarkets	[ 1; 1; 2 ]
+                    }
+
+                    # Sub-Feature Network Model
+                    {
+                        Name		"↪ Sets ↑"                    
+                        DevTime		1.42
+                        Level		1
+                        CodeArt		1
+                        Submarkets	[ 1; 1; 2 ]
+                    }
+
+                    # Sub-Feature Network Model
+                    {
+                        Name		"↪ Tree-like Structure ↑"                    
+                        DevTime		1.43
+                        Level		1
+                        CodeArt		1
+                        Unlock      1972
+                        Submarkets	[ 1; 1; 2 ]
+                    }
+
+                    # Sub-Feature Network Model
+                    {
+                        Name		"↪ Directed Graph ↑"                    
+                        DevTime		1.44
+                        Level		1
+                        CodeArt		1
+                        Unlock      1975
+                        Submarkets	[ 1; 1; 2 ]
+                    }
+
+                    # Sub-Feature Network Model
+                    {
+                        Name		"↪ Inverted Index ↑"                    
+                        DevTime		1.45
+                        Level		1
+                        CodeArt		1
+                        Unlock      1975
+                        Submarkets	[ 1; 1; 2 ]
+                    }
+
+                    # Feature Relation Model
+					{
+					    Name		"Relation Model"
+					    DevTime		1.50
+					    Level		1
+                        CodeArt		1
+                        Unlock      1980
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Sub-Feature Relation Model
+                    {
+                        Name		"↪ Mathematical Defined ↑"                    
+                        DevTime		1.51
+                        Description "Implementations predicate logic"
+                        Level		1
+                        CodeArt		1
+                        Unlock      1980
+                        Submarkets	[ 1; 2; 2 ]
+                    }
+
+                    # Sub-Feature Relation Model
+                    {
+                        Name		"↪ Primary Key ↑"                    
+                        DevTime		1.52
+                        Description "Uniquely identified rows of the table"
+                        Level		1
+                        CodeArt		1
+                        Unlock      1980
+                        Submarkets	[ 1; 2; 2 ]
+                    }
+
+                    # Sub-Feature Relation Model
+                    {
+                        Name		"↪ Relations Attributes ↑"                    
+                        DevTime		1.53
+                        Description "A relation is a table with columns and rows"
+                        Level		1
+                        CodeArt		1
+                        Unlock      1980
+                        Submarkets	[ 1; 2; 2 ]
+                    }
+
+                    # Sub-Feature Relation Model
+                    {
+                        Name		"↪ Data Integrity ↑"                    
+                        DevTime		1.54
+                        Description "A relation is a table with columns and rows"
+                        Level		1
+                        CodeArt		1
+                        Unlock      1982
+                        Submarkets	[ 1; 2; 2 ]
+                    }
+
+                    # Feature Data Definition
+					{
+					    Name		"Data Definition"
+					    DevTime		1.61
+					    Level		1
+                        CodeArt		1
+                        Unlock      1983
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Physical Models
+					{
+					    Name		"Physical Models"
+					    DevTime		1.62
+					    Level		1
+                        CodeArt		1
+                        Unlock      1985
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Multi-Value
+					{
+					    Name		"Multi-Value"
+					    DevTime		1.63
+					    Level		1
+                        CodeArt		1
+                        Unlock      1985
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Raw Modeling
+					{
+					    Name		"Raw Modeling"
+					    DevTime		1.64
+					    Level		1
+                        CodeArt		1
+                        Unlock      1986
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature String Concatenation
+					{
+					    Name		"String Concatenation"
+					    DevTime		1.70
+					    Level		1
+                        CodeArt		1
+                        Unlock      1991
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Substring Extraction
+					{
+					    Name		"Substring Extraction"
+					    DevTime		1.71
+					    Level		1
+                        CodeArt		1
+                        Unlock      1992
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Integrity Checking
+					{
+					    Name		"Integrity Checking"
+					    DevTime		1.72
+					    Level		1
+                        CodeArt		1
+                        Unlock      1994
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Boolean Data Types
+					{
+					    Name		"Boolean Data Types"
+					    DevTime		1.73
+					    Level		1
+                        CodeArt		1
+                        Unlock      1999
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Temporal Data
+					{
+					    Name		"Temporal Data"
+					    DevTime		1.74
+					    Level		1
+                        CodeArt		1
+                        Unlock      2010
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature DECFLOAT Data Types
+					{
+					    Name		"DECFLOAT Data Types"
+					    DevTime		1.75
+					    Level		1
+                        CodeArt		1
+                        Unlock      2016
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Integrated Data Storage
+					{
+					    Name		"Integrated Data Storage"
+					    DevTime		1.80
+					    Level		2
+                        CodeArt		1
+                        Unlock      1970
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Information Management System
+					{
+					    Name		"Information Management System"
+					    DevTime		1.81
+					    Level		2
+                        CodeArt		1
+                        Unlock      1970
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Star Schema
+					{
+					    Name		"Star Schema"
+					    DevTime		1.82
+					    Level		2
+                        CodeArt		1
+                        Unlock      1974
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Snowflake Schema
+					{
+					    Name		"Snowflake Schema"
+					    DevTime		1.83
+					    Level		2
+                        CodeArt		1
+                        Unlock      1980
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Control-of-Flow Statements
+					{
+					    Name		"Control-of-Flow Statements"
+					    DevTime		1.84
+					    Level		2
+                        CodeArt		1
+                        Unlock      1985
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Conditional Expressions
+					{
+					    Name		"Conditional Expressions"
+					    DevTime		1.85
+					    Level		2
+                        CodeArt		1
+                        Unlock      1990
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Information Schema
+					{
+					    Name		"Information Schema"
+					    DevTime		1.86
+					    Level		2
+                        CodeArt		1
+                        Unlock      1992
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Auto-Generated Identity
+					{
+					    Name		"Auto-Generated Identity"
+					    DevTime		1.87
+					    Level		2
+                        CodeArt		1
+                        Unlock      1998
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Auto-Generated Values
+					{
+					    Name		"Auto-Generated Values"
+					    DevTime		1.88
+					    Level		2
+                        CodeArt		1
+                        Unlock      2000
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Time Period Definitions
+					{
+					    Name		"Time Period Definitions"
+					    DevTime		1.89
+					    Level		2
+                        CodeArt		1
+                        Unlock      2009
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Automatic Period Splitting
+					{
+					    Name		"Automatic Period Splitting"
+					    DevTime		1.90
+					    Level		2
+                        CodeArt		1
+                        Unlock      2011
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    # Feature Row Pattern Recognition
+					{
+					    Name		"Row Pattern Recognition"
+					    DevTime		1.91
+					    Level		2
+                        CodeArt		1
+                        Unlock      2015
+					    Submarkets	[ 1; 2; 0 ]
+                    }
+
+                    
+				]
+			}
+		]
+	}
