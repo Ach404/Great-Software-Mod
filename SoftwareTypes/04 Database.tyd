@@ -204,7 +204,7 @@ SoftwareType
                         Level		1
                         CodeArt		1
                         Unlock      1972
-                        Submarkets	[ 1; 1; 2 ]
+                        Submarkets	[ 1; 2; 1 ]
                     }
 
                     # Sub-Feature Network Model
@@ -214,7 +214,7 @@ SoftwareType
                         Level		1
                         CodeArt		1
                         Unlock      1975
-                        Submarkets	[ 1; 1; 2 ]
+                        Submarkets	[ 2; 1; 1 ]
                     }
 
                     # Sub-Feature Network Model
@@ -256,7 +256,7 @@ SoftwareType
                         Level		1
                         CodeArt		1
                         Unlock      1980
-                        Submarkets	[ 1; 2; 2 ]
+                        Submarkets	[ 2; 1; 2 ]
                     }
 
                     # Sub-Feature Relation Model
@@ -278,7 +278,7 @@ SoftwareType
                         Level		1
                         CodeArt		1
                         Unlock      1982
-                        Submarkets	[ 1; 2; 2 ]
+                        Submarkets	[ 2; 1; 2 ]
                     }
 
                     # Feature Data Definition
@@ -288,7 +288,7 @@ SoftwareType
 					    Level		1
                         CodeArt		1
                         Unlock      1983
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 2; 1; 0 ]
                     }
 
                     # Feature Physical Models
@@ -308,7 +308,7 @@ SoftwareType
 					    Level		1
                         CodeArt		1
                         Unlock      1985
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 2; 1; 0 ]
                     }
 
                     # Feature Raw Modeling
@@ -318,7 +318,7 @@ SoftwareType
 					    Level		1
                         CodeArt		1
                         Unlock      1986
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 1; 1; 1 ]
                     }
 
                     # Feature String Concatenation
@@ -328,7 +328,7 @@ SoftwareType
 					    Level		1
                         CodeArt		1
                         Unlock      1991
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 1; 2; 1 ]
                     }
 
                     # Feature Substring Extraction
@@ -338,7 +338,7 @@ SoftwareType
 					    Level		1
                         CodeArt		1
                         Unlock      1992
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 1; 2; 1 ]
                     }
 
                     # Feature Integrity Checking
@@ -348,7 +348,7 @@ SoftwareType
 					    Level		1
                         CodeArt		1
                         Unlock      1994
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 1; 2; 2 ]
                     }
 
                     # Feature Boolean Data Types
@@ -358,7 +358,7 @@ SoftwareType
 					    Level		1
                         CodeArt		1
                         Unlock      1999
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 2; 1; 2 ]
                     }
 
                     # Feature Temporal Data
@@ -368,7 +368,7 @@ SoftwareType
 					    Level		1
                         CodeArt		1
                         Unlock      2010
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 2; 1; 1 ]
                     }
 
                     # Feature DECFLOAT Data Types
@@ -378,7 +378,7 @@ SoftwareType
 					    Level		1
                         CodeArt		1
                         Unlock      2016
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 2; 1; 0 ]
                     }
 
                     # Feature Integrated Data Storage
@@ -388,7 +388,7 @@ SoftwareType
 					    Level		2
                         CodeArt		1
                         Unlock      1970
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 1; 2; 1 ]
                     }
 
                     # Feature Information Management System
@@ -398,7 +398,17 @@ SoftwareType
 					    Level		2
                         CodeArt		1
                         Unlock      1970
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 1; 1; 0 ]
+                    }
+
+                    # Feature Basic Query
+					{
+					    Name		"Basic Query"
+					    DevTime		1.81
+					    Level		2
+                        CodeArt		1
+                        Unlock      1970
+					    Submarkets	[ 1; 1; 2 ]
                     }
 
                     # Feature Star Schema
@@ -438,7 +448,7 @@ SoftwareType
 					    Level		2
                         CodeArt		1
                         Unlock      1990
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 1; 2; 1 ]
                     }
 
                     # Feature Information Schema
@@ -458,7 +468,7 @@ SoftwareType
 					    Level		2
                         CodeArt		1
                         Unlock      1998
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 1; 1; 2 ]
                     }
 
                     # Feature Auto-Generated Values
@@ -468,7 +478,7 @@ SoftwareType
 					    Level		2
                         CodeArt		1
                         Unlock      2000
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 1; 1; 2 ]
                     }
 
                     # Feature Time Period Definitions
@@ -478,7 +488,7 @@ SoftwareType
 					    Level		2
                         CodeArt		1
                         Unlock      2009
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 1; 2; 1 ]
                     }
 
                     # Feature Automatic Period Splitting
@@ -488,7 +498,7 @@ SoftwareType
 					    Level		2
                         CodeArt		1
                         Unlock      2011
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 1; 1; 2 ]
                     }
 
                     # Feature Row Pattern Recognition
@@ -498,7 +508,7 @@ SoftwareType
 					    Level		2
                         CodeArt		1
                         Unlock      2015
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 1; 2; 1 ]
                     }
 
                      # Feature Structured Query Language
@@ -508,7 +518,7 @@ SoftwareType
 					    Level		3
                         CodeArt		1
                         Unlock      1970
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 1; 3; 1 ]
                     }
 
                     # Feature Data Repsentation
@@ -518,7 +528,7 @@ SoftwareType
 					    Level		3
                         CodeArt		1
                         Unlock      1985
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 1; 3; 0 ]
                     }
 
                     # Feature Object-Oriented Model
@@ -528,7 +538,7 @@ SoftwareType
 					    Level		3
                         CodeArt		1
                         Unlock      1990
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 1; 3; 0 ]
                     }
 
                     # Feature User Privileges
@@ -538,7 +548,7 @@ SoftwareType
 					    Level		3
                         CodeArt		1
                         Unlock      1991
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 1; 2; 2 ]
                     }
 
                     # Feature Dynamic Execution Queries
@@ -548,7 +558,7 @@ SoftwareType
 					    Level		3
                         CodeArt		1
                         Unlock      1993
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 1; 2; 3 ]
                     }
 
                     # Feature Extension Support
@@ -558,7 +568,7 @@ SoftwareType
 					    Level		3
                         CodeArt		1
                         Unlock      1999
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 1; 2; 3 ]
                     }
 
                     # Feature Metadata
@@ -568,7 +578,7 @@ SoftwareType
 					    Level		3
                         CodeArt		1
                         Unlock      2000
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 2; 1; 0 ]
                     }
 
                     # Feature Integrate Cross-Data
@@ -578,7 +588,7 @@ SoftwareType
 					    Level		3
                         CodeArt		1
                         Unlock      2006
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 1; 2; 3 ]
                     }
                     
                     # Feature Enchancements Derived Column
@@ -588,7 +598,7 @@ SoftwareType
 					    Level		3
                         CodeArt		1
                         Unlock      2008
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 1; 2; 1 ]
                     }
 
                     # Feature Polymorphic Table Functions
@@ -598,7 +608,7 @@ SoftwareType
 					    Level		3
                         CodeArt		1
                         Unlock      2017
-					    Submarkets	[ 1; 2; 0 ]
+					    Submarkets	[ 1; 3; 1 ]
                     }
 				]
 			}

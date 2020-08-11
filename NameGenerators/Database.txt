@@ -1,0 +1,39 @@
+-start(base)
+-base(stop)
+SolarWinds
+Oracle RDBMS
+IBM DB2
+Altibase
+Microsoft SQL Server
+SAP Sybase ASE
+Teradata
+ADABAS
+MySQL
+FileMaker
+Microsoft Access
+Informix
+SQLite
+PostgresSQL
+AmazonRDS
+MongoDB
+Redis
+CouchDB
+Neo4j
+OrientDB
+Couchbase
+Toad
+phpMyAdmin
+SQL Developer
+Seqel PRO
+Robomongo
+DbVisualizer
+Hadoop HDFS
+Cloudera
+MariaDB
+Informix Dynamic Server
+4D (4th Dimension)
+NoSQL
+ArangoDB
+InnoDB
+FushionDB
+SkySQL
