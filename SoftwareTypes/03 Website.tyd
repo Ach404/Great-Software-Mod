@@ -331,7 +331,20 @@ SoftwareType
 
                     # Feature Integrated Security & Performance
                     {
-                        Name        "Integrated Security & Performance"
+                        Name        "Subscription Service"
+                        Description "Users can get different services from users in general and better features"
+                        DevTime     4
+                        Level       3
+                        CodeArt     1
+                        Unlock      2015
+                        Submarkets  0
+                        Script_OnRelease    "/Scripts/web_setsubs.txt"
+                        Script_EndOfDay     "/Scripts/web_script.txt"
+                    }
+                    
+                    # Feature Integrated Security & Performance
+                    {
+                        Name        "Integrated Security"
                         Description "integrated security services to defend against DDoS attacks, customer data breaches, and abusive bots, while preventing performance"
                         DevTime     4
                         Level       3
